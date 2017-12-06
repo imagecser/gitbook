@@ -193,7 +193,7 @@ $ sudo vim default # 编辑配置文件
 
 之后，我们设置root 文件夹，便于定位flask 的static文件夹。
 
-location /static/ 设置了 https://www.example.com/static/的配置。
+location /static/ 设置了 https://www.example.com/static/ 的配置。
 
 location / 则设置了 https://www.example.com/ 根目录。我们将本地8000端口，映射到 / 根目录，并设置proxy_header。
 
